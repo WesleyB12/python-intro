@@ -23,7 +23,7 @@ while not done:
     Text=my_font.render(gettime(timer),False,(0,0,0))
     screen.blit(Text,(150,200))
     pygame.display.flip()
-    theclock.tick(100)
+    theclock.tick(200)
     timer+=-0.01
     shouldtick+=1
 pygame.quit()
